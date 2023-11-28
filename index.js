@@ -4,12 +4,12 @@
 
 
 function getMovieByName() {
-  let url = "http://www.omdbapi.com/?s=Barbie&apikey=e9f54ad";
+  let url = "http://www.omdbapi.com/?s=Nightmare&apikey=e9f54ad";
   fetchMovies(url);
 }
 
 function getMoviesByYear() {
-  let url = "http://www.omdbapi.com/?s=Barbie&apikey=e9f54ad&type=movie";
+  let url = "http://www.omdbapi.com/?s=Nightmare&apikey=e9f54ad&type=movie";
   fetchMovies(url, true);
 }
 
