@@ -17,13 +17,14 @@
         <br>
         <h3>Get by Name</h3>
         <p>This is a demo of JS fetch API that gets movies by name</p>
+        <input id="searchbar" type="text" name="search" placeholder="Search movies...">
         <button onclick="getMovieByName()">Get a Movie by name</button>
       </div>
       <div>
         <br>
         <h3>Sort by Year</h3>
         <p>This is a demo of JS fetch API that sorts movies by year</p>
-        <button onclick="getMoviesByYear()">Sort Movies by Year</button>
+        <button onclick="sortMovies(searchedMoviesData)">Sort Movies by Year</button>
       </div>
       <div class="movie-container">
         <div>
